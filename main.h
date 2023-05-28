@@ -21,7 +21,9 @@ int percent_handler(const char *, va_list, int *);
 int print_string(va_list);
 int print_char(va_list);
 int print_integer(va_list);
+       /*binary.c*/
 int print_binary(va_list);
+void write_base(char *str);
 int print_rot(va_list);
 int print_unsigned(va_list);
        /*unsigned_octal.c*/
